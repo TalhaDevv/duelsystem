@@ -1,0 +1,18 @@
+name: DuelSystem
+version: '1.0'
+main: com.talhadevv.duelsystem.DuelSystem
+api-version: 1.21
+authors: [talhadevv]
+depend: [WorldGuard, WorldEdit]
+description: Minecraft Masters Duel 3v3
+commands:
+  duel:
+    description: duel komutu
+    usage: /<command>
+    permission: duelsystem.admin
+    permission-message: Bu komutu kullanmaya yetkiniz yok!
+  takim:
+    description: takım komutu (ayarlı degil)
+    usage: /<command>
+    permission: duelsystem.admin
+    permission-message: Bu komutu kullanmaya yetkiniz yok!

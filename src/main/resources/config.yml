@@ -1,0 +1,28 @@
+# DuelSystem Config dosyası
+# Komutları kullanarak konumları ayarlayın.
+# /duel lobi, /duel mainspawn ve /duel spawn kırmızı/mavi
+
+locations:
+  # Lobi konumu, oyuncuların düello başlamadan önce beklediği yer.
+  # Örnek: world,0.5,64.0,0.5,0.0,0.0
+  lobby: ""
+
+  # Oyuncuların maç bittikten sonra ışınlandığı ana spawn konumu.
+  # Örnek: world,100.5,70.0,100.5,0.0,0.0
+  mainSpawn: ""
+
+  # Takım spawn noktaları. Her takım için 3 adet ayarlanmalı.
+  # /duel spawn kırmızı/mavi ile ayarlanır
+  # Örnek:
+  # spawnPoints:
+  #  red:
+  #  - world,-10.5,65.0,-10.5,90.0,0.0
+  #  - world,-10.5,65.0,-12.5,90.0,0.0
+  #  - world,-10.5,65.0,-14.5,90.0,0.0
+  #  blue:
+  #  - world,10.5,65.0,10.5,-90.0,0.0
+  #  - world,10.5,65.0,12.5,-90.0,0.0
+  #  - world,10.5,65.0,14.5,-90.0,0.0
+  spawnPoints:
+    red: []
+    blue: []
